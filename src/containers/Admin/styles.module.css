@@ -1,0 +1,25 @@
+.adminContainer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adminContainer a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.menu {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.menu:not(:last-child) {
+  margin-right: 30px;
+}
